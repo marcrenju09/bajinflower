@@ -228,9 +228,12 @@ section { padding: 80px 5vw; }
 footer { background: var(--charcoal); color: rgba(255,255,255,0.7); padding: 48px 5vw; text-align: center; }
 footer .footer-logo { font-family: var(--font-serif); font-size: 1.8rem; color: white; margin-bottom: 12px; }
 footer p { font-size: 0.85rem; line-height: 1.75; font-weight: 300; max-width: 360px; margin: 0 auto 24px; }
-footer .footer-links { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; margin-bottom: 32px; }
+footer .footer-links { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; margin-bottom: 18px; }
 footer .footer-links a { color: rgba(255,255,255,0.55); text-decoration: none; font-size: 0.82rem; letter-spacing: 0.06em; text-transform: uppercase; transition: color 0.2s; }
 footer .footer-links a:hover { color: var(--rose-light); }
+footer .footer-location { font-size: 0.88rem; color: rgba(255,255,255,0.75); margin-bottom: 16px; }
+footer .footer-location a { color: rgba(255,255,255,0.9); text-decoration: underline; }
+footer .footer-location a:hover { color: var(--rose-light); }
 footer .copy { font-size: 0.78rem; opacity: 0.4; }
 
 @media (max-width: 768px) {
